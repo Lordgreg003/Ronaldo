@@ -1,0 +1,47 @@
+/* section.x {
+  height: 52rem;
+  width: 120rem;
+  background-color: #222831;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+section.a {
+  background-color: #222831;
+  height: 100rem;
+  /* width: 30rem; */
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+div.b {
+  width: 30rem;
+  height: 5rem;
+  /* background-color: antiquewhite; */
+  font-size: xx-large;
+  margin-left: 2rem;
+}
+div.c {
+  width: 30rem;
+  height: 80rem;
+  background: fixed;
+  /* background-color: azure; */
+  margin-left: 2rem;
+}
+
+div.d {
+  padding: 2rem;
+  font-size: x-large;
+}
+
+div.e {
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  div.c {
+    width: 50%;
+  }
+}
